@@ -1,0 +1,72 @@
+body{
+    font-family: 'Avenir', sans-serif;
+}
+
+.mytoggler{
+    border:none;
+}
+
+
+.divb{
+    min-height: 1000px;
+    display:flex;
+    align-items:center;
+}
+
+img {
+    border:0;
+}
+
+.bg-apple-dark{
+    background-color: rgba(0, 0, 0, .85);
+    opacity: 0.85;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.bg-apple-dark a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+.bg-apple-dark a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-prim{
+    background-color: black;
+}
+
+.div-center{
+    text-align:center;
+}
+
+
+.alink{
+    color:white;
+    opacity: 0.8;
+}
+
+.alink:hover{
+    color:white;
+    opacity: 1.0;
+}
+
+.alink-dark{
+    color:black;
+    opacity: 0.75;
+}
+
+.alink-dark:hover{
+    color:black;
+    opacity: 1.0;
+}
+
+.small-lg{
+    height: 250px;
+    width: 250px;
+}
