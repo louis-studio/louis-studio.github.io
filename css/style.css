@@ -6,6 +6,26 @@ body{
     border:none;
 }
 
+.bg-1{
+    background: url("../asset/photo-1510557880182-3d4d3cba35a5.jpeg");
+    background-size: cover;
+}
+.bg-2{
+    background: url("../asset/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg") no-repeat;
+    background-size: cover;
+}
+.bg-3{
+    background: url("../asset/christopher-gower-m_HRfLhgABo-unsplash.jpg") no-repeat;
+    background-size: cover;
+}
+.bg-4{
+    background: url("../asset/photo-1457369804613-52c61a468e7d.jpeg") no-repeat;
+    background-size: cover;
+}
+.bg-5{
+    background: url("../asset/photo-1498330177096-689e3fb901ca.jpeg") no-repeat;
+    background-size: cover;
+}
 
 .divb{
     min-height: 1000px;
@@ -66,7 +86,22 @@ img {
     opacity: 1.0;
 }
 
+.alink-dark2{
+    color:black;
+    opacity: 1.0;
+}
+
+.alink-dark2:hover{
+    color:black;
+    opacity: 0.75;
+}
+
 .small-lg{
     height: 250px;
     width: 250px;
+}
+
+.tiny-lg{
+    height: 100px;
+    width: 100px;
 }

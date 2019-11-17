@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:margin-top="http://www.w3.org/1999/xhtml">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="./asset/favicon.jpg">
-    <title>关于</title>
+    <link rel="icon" type="image/png" href="asset/favicon.jpg">
+    <!--Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>生产力软件</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-apple-dark fixed-top">
@@ -18,11 +21,11 @@
         </button>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link animated zoomIn" href="index.html">主页 <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link animated zoomIn" href="index.html">主页</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link animated zoomIn" href="productivity.html">生产力软件</a>
+                    <a class="nav-link animated zoomIn active" href="productivity.html">生产力软件 <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link animated zoomIn" href="daily.html">日常软件</a>
@@ -37,18 +40,17 @@
         </div>
     </div>
 </nav>
-<div class="container" style="margin-top: 60px;">
-    <br>
-    <h1 class="display-4 text-center">LOUIS STUDIO 简介</h1>
-    <br>
-    <p class="lead">
-        2019年，伴随着Daily Notes的完成，LOUIS STUDIO 创立了。虽说是STUDIO，但是只有一个人在奋斗，只有一个人在书写着LOUIS STUDIO的故事。作为一个独立开发者，我需要完成比别人多好几倍的工作量。策划+设计+开发+宣传，开发一款APP真的是不容易。
-        <br><br>我希望把 LOUIS STUDIO 的每一个 APP 打造成"安全隐私、简单好用、用户满意"的代名词，这也是我对APP的最高要求。
-        我是一个追求完美的人，一个简单的Daily Notes弄了一两个月还是不让我满意。拿出最好的APP给大家是我最大的愿望。
-        <br><br>我们将来会经常推出不但好用，还便宜的APP，希望大家可以关注我们。有时，我们也会做几个大型项目，敬请期待！
-    </p>
-    <p class="lead" style="text-align: right;">LOUIS AEILOT D, 2019年, 上海</p>
+
+<div class="divb jumbotron jumbotron-fluid bg-3" style="margin-top: 56px; margin-bottom: 10px;">
+    <div class="container div-center">
+        <h1 class="display-4 text-white">Louis Studio 生产力软件</h1>
+        <br>
+        <p class="lead text-white">让您的工作更得心应手！</p>
+        <!--            <br>-->
+        <!--            <a class="alink lead" href="#download">观看宣传片 <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i></a>-->
+    </div>
 </div>
+
 <div class="container-fluid">
     <footer class="pt-4 my-md-5 pt-md-5 border-top div-center">
         <div class="row">
@@ -87,14 +89,15 @@
         </div>
     </footer>
 </div>
+<!--scrollReveal.js-->
+<script src="https://unpkg.com/scrollreveal"></script>
 <!--User JavaScript-->
-<script src="./js/script.js"></script>
+<script src="js/script.js"></script>
 <!-- Optional JavaScript -->
 <script src="https://cdn.bootcss.com/jquery/3.4.1/core.js"></script>
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 </html>
