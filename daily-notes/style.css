@@ -1,3 +1,37 @@
+@font-face {
+    font-family: SourceHanSerifCN-Heavy;
+    src: url('../style/fonts/SourceHanSerifCN-Heavy.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-Bold;
+    src: url('../style/fonts/SourceHanSerifCN-Bold.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-SemiBold;
+    src: url('../style/fonts/SourceHanSerifCN-SemiBold.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-Medium;
+    src: url('../style/fonts/SourceHanSerifCN-Medium.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-Regular;
+    src: url('../style/fonts/SourceHanSerifCN-Regular.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-Light;
+    src: url('../style/fonts/SourceHanSerifCN-Light.otf');
+}
+
+@font-face {
+    font-family: SourceHanSerifCN-ExtraLight;
+    src: url('../style/fonts/SourceHanSerifCN-ExtraLight.otf');
+}
 .larger {
     font-family: SourceHanSerifCN-Heavy;
     font-size: 300%;
