@@ -1,152 +1,51 @@
-<!DOCTYPE html>
-<html lang="zh">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="./asset/favicon.jpg">
-    <!--Animate.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>主页</title>
+    <meta charset="utf-8">
+    <title>Louis Studio</title>
+    <meta name="description" content="Innovations Change The World">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Style -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+        integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/main.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-apple-dark fixed-top">
+
+<body style="overflow-y: hidden;overflow-x: hidden;">
     <div class="container">
-        <a class="navbar-brand animated zoomIn" href="https://www.louisstudio.tk">LOUIS STUDIO</a>
-        <button class="navbar-toggler mytoggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars mytoggler" aria-hidden="true"></i>
-        </button>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link animated zoomIn" href="index.html">主页 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link animated zoomIn" href="productivity.html">生产力软件</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link animated zoomIn" href="daily.html">日常软件</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link animated zoomIn" href="creativity.html">创造力软件</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link animated zoomIn" href="support/index.html">技术支持</a>
-                </li>
-            </ul>
+        <div class="first">
+            <img src="favicon.ico" class="img-favi">
+            <p class="primary">Louis Studio</p>
+            <span class="secondary" id="typed"></span>
         </div>
     </div>
-</nav>
-
-<div class="divb jumbotron jumbotron-fluid bg-prim" style="margin-top: 56px; margin-bottom: 10px;">
-    <div class="container div-center">
-        <img src="./asset/ic_launcher-web.png" alt="icon" class="small-lg animated bounceIn">
-        <br>
-        <br>
-        <h1 class="display-4 text-white animated fadeIn">记录生活之美</h1>
-        <br>
-        <p class="lead text-white text-muted animated fadeIn">Daily Notes现已发售，5元/月订阅制收费。<br>使用Material Design，带给您更原生的体验。<br>首创日记初始模版功能，加倍您的个性化体验。</p>
-        <br>
-        <a class="alink lead animated fadeIn delay-1s" href="https://www.louisstudio.tk/daily-notes">了解更多 <i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a>
-        <!--            <br>-->
-        <!--            <a class="alink lead" href="#download">观看宣传片 <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i></a>-->
+    <div class="pure-menu pure-menu-horizontal menu">
+        <a href="#" class="pure-menu-heading pure-menu-link">LOUIS STUDIO</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="product/index.html" class="pure-menu-link">产品</a></li>
+            <li class="pure-menu-item"><a href="mailto:1329415023@qq.com" class="pure-menu-link">联系</a></li>
+            <li class="pure-menu-item"><a href="donate/index.html" class="pure-menu-link">赞赏</a></li>
+            <li class="pure-menu-item"><a href="https://www.louisstudio.tk/blog" class="pure-menu-link">博客</a></li>
+            <li class="pure-menu-item"><a href="about/index.html" class="pure-menu-link">关于</a></li>
+            <li class="pure-menu-item"><a href="old/index.html" class="pure-menu-link">旧版</a></li>
+        </ul>
     </div>
-</div>
-
-<div class="divb jumbotron jumbotron-fluid bg-5" style="margin-bottom: 10px;">
-    <div class="container div-center">
-        <h1 class="display-4 text-white">起航!</h1>
-        <br>
-        <p class="lead text-white">LOUIS STUDIO带着梦想扬帆远航!<br>来看看LOUIS AEILOT的信!</p>
-        <br>
-        <a class="alink lead" href="about.html">了解更多 <i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a>
-        <!--            <br>-->
-        <!--            <a class="alink lead" href="#download">观看宣传片 <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i></a>-->
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-6">
-        <div class="divb jumbotron jumbotron-fluid bg-prim" style="margin-left: -20px; margin-bottom: 10px;">
-            <div class="container div-center">
-                <i class="fa fa-envelope-o text-white fa-5x" aria-hidden="true"></i>
-                <br>
-                <br>
-                <h1 class="display-4 text-white">联系我们</h1>
-                <br>
-                <p class="lead text-white text-muted">邮箱: <a href="mailto:1329415023@qq.com" class="alink">1329415023@qq.com</a><br>GitHub: <a href="https://www.github.com/aeilot" class="alink">aeilot</a></p>
-                <!--            <br>-->
-                <!--            <a class="alink lead" href="#download">观看宣传片 <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i></a>-->
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="divb jumbotron jumbotron-fluid bg-blue" style="margin-left: -20px; margin-bottom: 10px;">
-            <div class="container div-center">
-                <i class="fa fa-rss-square fa-5x" aria-hidden="true"></i>
-                <br>
-                <br>
-                <h1 class="display-4">来看看 LOUIS AEILOT 的博客</h1>
-                <br>
-                <p class="lead text-muted ">这个BLOG被用来分享一些小知识，欢迎阅读!</p>
-                <br>
-                <a class="alink-dark lead animated" href="https://www.louisstudio.tk/blog">了解更多 <i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a>
-                <!--            <br>-->
-                <!--            <a class="alink lead" href="#download">观看宣传片 <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i></a>-->
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <footer class="pt-4 my-md-5 pt-md-5 border-top div-center">
-        <div class="row">
-            <div class="col-12 col-md">
-                <h5 class="display-6">LOUIS STUDIO</h5>
-                <small class="lead text-muted">创新改变世界</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>下载并了解</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="https://www.louisstudio.tk/daily-notes">Daily Notes</a></li>
-                    <!--                        <li><a class="text-muted" href="#">Team feature</a></li>-->
-                    <!--                        <li><a class="text-muted" href="#">Stuff for developers</a></li>-->
-                    <!--                        <li><a class="text-muted" href="#">Another one</a></li>-->
-                    <!--                        <li><a class="text-muted" href="#">Last time</a></li>-->
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>服务</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="support/index.html">技术支持</a></li>
-                    <li><a class="text-muted" href="#coming-soon">网页版 Daily Notes</a></li>
-                    <!--                        <li><a class="text-muted" href="#">提出建议</a></li>-->
-                    <!--                        <li><a class="text-muted" href="#">Another resource</a></li>-->
-                    <!--                        <li><a class="text-muted" href="#">Final resource</a></li>-->
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>关于 LOUIS STUDIO</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="about.html">简介</a></li>
-                    <li><a class="text-muted" href="terms.html">服务条款</a></li>
-                    <li><a class="text-muted" href="mailto:1329415023@qq.com">联系 LOUIS STUDIO</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-</div>
-<!--scrollReveal.js-->
-<script src="https://unpkg.com/scrollreveal"></script>
-<!--User JavaScript-->
-<script src="js/script.js"></script>
-<!-- Optional JavaScript -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/core.js"></script>
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="js/type.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+        new Darkmode().showWidget();
+    </script>
 </body>
+
 </html>

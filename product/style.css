@@ -1,0 +1,35 @@
+.larger {
+    font-family: SourceHanSerifCN-Heavy;
+    font-size: 300%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.large {
+    font-family: SourceHanSerifCN-Bold;
+    font-size: 200%;
+    color: #999;
+    text-align: center;
+}
+
+.link{
+        font-family: SourceHanSerifCN-Bold;
+        font-size: 100%;
+        color: #999;
+}
+
+.title {
+    font-family: SourceHanSerifCN-Bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+.text {
+    font-family: SourceHanSerifCN-Medium;
+    font-size: 100%;
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+}
