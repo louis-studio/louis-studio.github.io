@@ -1,0 +1,116 @@
+ .larger1 {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 300%;
+     margin-bottom: 10px;
+     margin-top: 0px;
+ }
+
+ .larger {
+     font-family: -apple-system,
+     BlinkMacSystemFont,
+     'Segoe UI',
+     Roboto,
+     Oxygen,
+     Ubuntu,
+     Cantarell,
+     'Open Sans',
+     'Helvetica Neue',
+     sans-serif;
+     font-size: 300%;
+     margin-bottom: 10px;
+     margin-top: 0px;
+ }
+
+ .linkR {
+     margin-left: 20px;
+ }
+
+ .large {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 150%;
+     color: #999;
+     text-align: center;
+ }
+
+ .larget {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 150%;
+     color: #999;
+     text-align: center;
+ }
+
+ .link {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 125%;
+     color: #999;
+ }
+
+ .link:hover {
+     text-shadow: 3px 3px 5px #000000;
+     color: black;
+     transition: all 0.5s;
+ }
+
+  a:link {
+      text-decoration: none;
+  }
+
+  a:active {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+ .pure-menu-active>.pure-menu-link,
+ .pure-menu-link:focus,
+ .pure-menu-link:hover {
+     text-shadow: 3px 3px 5px #000000;
+     background-color: #00000000 !important;
+     color: black;
+ }
+
+ .menu {
+     margin-bottom: 0%;
+     background-color: gainsboro;
+     box-shadow: 0 4px 8px gray inset;
+ }
+
+ .containerone {
+     height: 100%;
+     text-align: center;
+     width: 100%;
+     display: table;
+     box-shadow: 0 3px 4px gray inset;
+ }
+
+ .table {
+     height: 100%;
+     text-align: center;
+     width: 100%;
+     display: table-cell;
+ }
+
+ .table-l {
+     height: 100%;
+     text-align: center;
+     width: 50%;
+     display: table-cell;
+ }
+
+ .table-r {
+     height: 100%;
+     text-align: center;
+     width: 50%;
+     display: table-cell;
+ }
+
+html,
+body {
+    scroll-behavior: smooth;
+}

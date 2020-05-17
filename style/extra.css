@@ -1,0 +1,26 @@
+.pure-menu-link:hover {
+    text-shadow: none;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 0.25);
+    background-color: #efefef;
+}
+
+.pure-menu-link {
+    border-radius: 0;
+}
+
+.link {
+    transition: all 0.25s;
+}
+
+.link:hover {
+    text-shadow: 0 0 20px black;
+}
+
+.containerone {
+    box-shadow: 0px 20px 40px rgb(0 0 0 / 25%);
+}
+
+.menu {
+    box-shadow: 0px -20px 40px rgb(0 0 0 / 0.25);
+    background-color: #f5f5f5;
+}
