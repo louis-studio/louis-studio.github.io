@@ -1,3 +1,5 @@
 # louis-studio.github.io
 
-NOTICE: THE BLOG IS AEILOT'S BLOG, which is not related to Louis Studio
+## Authors
+
+- William Steve [github/MrWillCom](https://github.com/MrWillCom)
